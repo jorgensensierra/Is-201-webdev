@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+}
+.navigation{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+.navigation div{
+    text-decoration: none;
+    font-size: 1.5em;
+    width: fit-content;
+    margin: 10px auto;
+}
+.navigation div:hover{
+    background-color: white;
+    color: rgb(52, 219, 235)
+}
+.navigation a{
+    color: rgb(52, 219, 235)
+}
+.tableau-title{
+    width:fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.tableau-grid{
+    width: 85%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    padding: 8px 8px;
+    background-color: gray;
+}
+.tableau-grid h4{
+    width: fit-content;
+    margin: 0 auto;
+}
+.footer{
+    background-color: rgb(52, 219, 235);
+}
+.footer p{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 0;
+}

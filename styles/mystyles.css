@@ -1,0 +1,13 @@
+.subtitle{
+    font-style: italic;
+}
+.box:hover{
+    color: rgb(52, 219, 235) !important;
+}
+.text-holder{
+    width:min-content;
+    margin: 0 auto;
+}
+.on-page-anchor:link{
+    color: white;
+}
